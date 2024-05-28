@@ -26,6 +26,10 @@ sudo apt install -y neovim
 
 bash configureTextEditor.sh
 
+git config --global user.email "tojastuch@gmail.com"
+git config --global user.name "Jerzy Stusinski"
+
+
 
 
 
