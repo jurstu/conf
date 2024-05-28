@@ -3,3 +3,13 @@
 3. install.txt configures all
 
 4. install obsidian
+
+
+use this
+
+# Download maps if necessary
+MAPS="dataset/urban_maps.zip"
+if [ ! -z "$MAPS" ]; then
+  wget https://zenodo.org/record/1211730/files/urban_maps.zip?download=1 -O $MAPS
+  unzip $MAPS -d dataset/
+fi
