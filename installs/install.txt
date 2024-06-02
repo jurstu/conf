@@ -21,7 +21,7 @@ sudo apt install -y curl
 sudo apt install -y cmake build-essential pkg-config
 sudo apt install -y fontconfig
 sudo apt install -y neovim
-
+sudo apt install -y socat
 #sudo snap install code
 
 bash configureTextEditor.sh
