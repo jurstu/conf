@@ -25,6 +25,8 @@ sudo apt install -y protobuf-compiler
 sudo apt install -y python3-protobuf
 sudo apt install -y socat
 #sudo snap install code
+sudo apt install -y powertop
+
 
 bash configureTextEditor.sh
 
