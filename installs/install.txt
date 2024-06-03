@@ -23,6 +23,7 @@ sudo apt install -y fontconfig
 sudo apt install -y neovim
 sudo apt install -y protobuf-compiler
 sudo apt install -y python3-protobuf
+sudo apt install -y socat
 #sudo snap install code
 
 bash configureTextEditor.sh
