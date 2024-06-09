@@ -34,6 +34,8 @@ bash configureTextEditor.sh
 git config --global user.email "tojastuch@gmail.com"
 git config --global user.name "Jerzy Stusinski"
 
+# merge default
+git config pull.rebase false
 
 
 
