@@ -61,6 +61,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 echo '. "$HOME/.cargo/env"' >> ~/.bashrc
 cargo install bat
 cargo install dutree
+cargo install eza
+
 #cargo install alacritty
 
 
