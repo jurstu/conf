@@ -128,3 +128,18 @@ figlet -c `fortune` | lolcat
 alias get_idf=". /home/jur/esp/esp-idf/export.sh"
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 export HISTSIZE=1000000000
+. "$HOME/.cargo/env"
+alias ls="eza --icons"
+alias ccat="cat"
+alias bat="bat"
+alias dat="bat -p"
+export VISUAL=vim
+export EDITOR="$VISUAL"
+export PICO_SDK_PATH=~/pico/pico-sdk
+export PICO_EXAMPLES_PATH=~/pico/pico-examples
+export PICO_SDK_PATH=~/pico/pico-sdk
+export PICO_EXAMPLES_PATH=~/pico/pico-examples
+figlet -c `fortune` | lolcat
+alias get_idf=". /home/jur/esp/esp-idf/export.sh"
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+export HISTSIZE=1000000000
