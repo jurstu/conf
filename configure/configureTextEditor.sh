@@ -14,7 +14,7 @@ gsettings set org.gnome.TextEditor recolor-window true
 gsettings set org.gnome.TextEditor restore-session false
 gsettings set org.gnome.TextEditor right-margin-position 120
 gsettings set org.gnome.TextEditor show-grid false
-gsettings set org.gnome.TextEditor show-line-numbers false
+gsettings set org.gnome.TextEditor show-line-numbers true
 gsettings set org.gnome.TextEditor show-map false
 gsettings set org.gnome.TextEditor show-right-margin true
 gsettings set org.gnome.TextEditor spellcheck true

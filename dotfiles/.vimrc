@@ -1,4 +1,4 @@
-
+#comment
 
 set number
 set relativenumber
