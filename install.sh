@@ -84,7 +84,7 @@ bash install/installTailscale.sh
 
 # TODO use stow
 cd dotfiles
-stow . 
+stow -t ~/ . --adopt
 cd ../
 
 #install tmux plugins
