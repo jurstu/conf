@@ -6,13 +6,10 @@ sudo apt install -y git
 git config --global user.email "tojastuch@gmail.com"
 git config --global user.name "Jerzy Stusinski"
 git config pull.rebase false
-
-
 sudo apt install libfuse2
-
-
 sudo apt install -y dtrx
 sudo apt install -y libgtk2.0-dev
+sudo apt install -y fzf
 sudo apt install -y screen
 sudo apt install -y htop
 sudo apt install -y nload
@@ -36,6 +33,9 @@ sudo apt install -y neovim
 sudo apt install -y protobuf-compiler
 sudo apt install -y python3-protobuf
 sudo apt install -y socat
+sudo apt install -y lolcat
+sudo apt install -y fortune
+sudo apt install -y figlet
 #sudo snap install code
 sudo apt install -y powertop
 sudo apt install -y v4l-utils
