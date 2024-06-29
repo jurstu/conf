@@ -8,7 +8,7 @@ echo "$line_to_add" | sudo tee -a /etc/profile > /dev/null
 
 
 sudo apt install -y git
-./configureGit.sh
+#./configureGit.sh
 
 sudo apt install -y libfuse2
 sudo apt install -y dtrx
@@ -58,8 +58,19 @@ sudo apt install -y stow
 
 
 bash configureTextEditor.sh
-bash install/installSignal.sh
+
+read -p "Do you want to install signal? (Y/n): " response
+response=${response:-Y}
+if [[ "$response" == "y" || "$response" == "Y" ]]; then
+    bash install/installSignal.sh
+    echo "signal has been installed."
+else
+    echo "Installation of signal aborted."
+fi
+
+
 bash install/installCargo.sh
+. $HOME/.cargo/env
 cargo install bat
 cargo install dutree
 cargo install eza
