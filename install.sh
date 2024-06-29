@@ -84,8 +84,8 @@ bash install/installTailscale.sh
 
 # TODO use stow
 cd dotfiles
-stow .
-
+stow . 
+cd ../
 
 #install tmux plugins
 tmux source ~/.tmux.conf
@@ -127,8 +127,10 @@ fi
 read -p "Do you want to install zsh? (Y/n): " response
 response=${response:-Y}
 if [[ "$response" == "y" || "$response" == "Y" ]]; then
-    sudo apt install -y zsh
-    
+    #sudo apt install -y zsh
+    cd install 
+    ./installZsh.sh
+    cd ../ 
     echo "zsh has been installed."
 else
     echo "Installation of Tailscale aborted."
