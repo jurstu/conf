@@ -7,6 +7,7 @@ sed -i '/ZSH_THEME/d' ~/.zshrc
 
 
 
+exit 0
 
 echo '. "$HOME/.cargo/env"' >> ~/.zshrc
 echo 'alias ls="eza --icons"' >> ~/.zshrc
