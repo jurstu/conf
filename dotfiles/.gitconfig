@@ -1,0 +1,5 @@
+[user]
+	email = tojastuch@gmail.com
+	name = Jerzy Stusinski
+[pull]
+  rebase = false
