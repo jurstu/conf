@@ -115,6 +115,3 @@ alias get_idf=". /home/jur/esp/esp-idf/export.sh"
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 export HISTSIZE=1000000000
 alias get_idf='. /home/jur/esp/esp-idf/export.sh'
-alias get_idf='. /home/jur/esp/esp-idf/export.sh'
-alias get_idf='. /home/jur/esp/esp-idf/export.sh'
-alias get_idf='. /home/jur/esp/esp-idf/export.sh'
