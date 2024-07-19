@@ -100,3 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+. "$HOME/.cargo/env"
+alias ls="eza --icons"
+alias ccat="cat"
+alias bat="bat"
+alias dat="bat -p"
+export VISUAL=vim
+export EDITOR="$VISUAL"
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+export HISTSIZE=1000000000
