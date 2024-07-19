@@ -2,11 +2,11 @@ ZSH_THEME='gnzh'
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
@@ -89,29 +89,24 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# Set personal aliases, overriding those provided by Oh My Zsh libs,
+# plugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-. $HOME/.cargo/env
-export PICO_SDK_PATH=~/pico/pico-sdk/
+. "$HOME/.cargo/env"
 alias ls="eza --icons"
 alias ccat="cat"
 alias bat="bat"
 alias dat="bat -p"
 export VISUAL=vim
 export EDITOR="$VISUAL"
-export PICO_SDK_PATH=~/pico/pico-sdk
-export PICO_EXAMPLES_PATH=~/pico/pico-examples
-export PICO_SDK_PATH=~/pico/pico-sdk
-export PICO_EXAMPLES_PATH=~/pico/pico-examples
-figlet -c `fortune` | lolcat
-alias get_idf=". /home/jur/esp/esp-idf/export.sh"
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 export HISTSIZE=1000000000
 alias get_idf='. /home/jur/esp/esp-idf/export.sh'

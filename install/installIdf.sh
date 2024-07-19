@@ -11,3 +11,6 @@ cd ~/esp/esp-idf
 ./install.sh esp32,esp32s3
 
 echo "alias get_idf='. $HOME/esp/esp-idf/export.sh'" >> ~/.zshrc
+
+sudo usermod -a -G dialout $USER
+

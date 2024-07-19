@@ -80,6 +80,17 @@ cargo install eza
 
 bash install/installTailscale.sh
 
+read -p "Do you want to install zsh? (Y/n): " response
+response=${response:-Y}
+if [[ "$response" == "y" || "$response" == "Y" ]]; then
+    #sudo apt install -y zsh
+    cd install 
+    ./installZsh.sh
+    cd ../ 
+    echo "zsh has been installed."
+else
+    echo "Installation of Tailscale aborted."
+fi
 
 
 # TODO use stow
@@ -124,17 +135,6 @@ fi
 
 
 
-read -p "Do you want to install zsh? (Y/n): " response
-response=${response:-Y}
-if [[ "$response" == "y" || "$response" == "Y" ]]; then
-    #sudo apt install -y zsh
-    cd install 
-    ./installZsh.sh
-    cd ../ 
-    echo "zsh has been installed."
-else
-    echo "Installation of Tailscale aborted."
-fi
 
 
 
