@@ -51,6 +51,7 @@ sudo apt install -y chromium
 sudo apt install -y barrier
 sudo apt install -y stow
 
+sudo apt install -y vlc
 
 
 
