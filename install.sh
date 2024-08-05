@@ -47,6 +47,7 @@ sudo apt install -y protobuf-compiler
 sudo apt install -y python3-protobuf
 
 
+
 sudo apt install -y chromium
 sudo apt install -y barrier
 sudo apt install -y stow
@@ -102,6 +103,9 @@ cd ../
 #install tmux plugins
 tmux source ~/.tmux.conf
 ~/.tmux/plugins/tpm/scripts/install_plugins.sh
+
+
+pip3 install requests
 
 
 
